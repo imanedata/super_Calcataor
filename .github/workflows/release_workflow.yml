@@ -49,4 +49,4 @@ jobs:
           context: .
           file: Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/tpdvp:${{  github.ref_name }}
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/4dvp:${{  github.ref_name }}
